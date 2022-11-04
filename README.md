@@ -1,7 +1,7 @@
-## Admin
+## wechat-pay
 
-后台内核，为后台业务提供底层策略，写法支持。
+微信支付组件。
 
 ## 使用文档
 
-[使用文档](https://phpzlc.com/doc/module/admin)
+[使用文档](https://phpzlc.com/doc/module/wechat-pay)
