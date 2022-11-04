@@ -1,11 +1,11 @@
 {
-    "name": "phpzlc/admin",
-    "description": "后台系统",
+    "name": "phpzlc/wechat-pay",
+    "description": "微信支付组件",
     "homepage": "https://phpzlc.com/",
     "license": "MIT",
     "type": "library",
     "keywords": [
-        "phpzlc", "symfony", "admin"
+        "phpzlc", "symfony", "wechat-pay"
     ],
     "support": {
         "email": "1044295598@qq.com"
@@ -18,11 +18,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "PHPZlc\\Admin\\": [""]
+            "PHPZlc\\WeChatPay\\": [""]
         }
     },
     "require": {
-        "symfony/framework-bundle": ">=5.4",
-        "phpoffice/phpspreadsheet": "1.18.*"
+        "phpzlc/phpzlc": "2.*"
     }
 }
